@@ -6,7 +6,7 @@ if order == 1
         puts "Enter 1 for CocaCola."
         puts "Enter 2 for Fanta."
         puts "Enter 3 for plain water."
-        drink = gets.to_i
+        drink = gets.to_i   #Changes input to integer
 
         case drink 
         when 1
@@ -16,13 +16,13 @@ if order == 1
         when 3
             puts "A bottle of plain water will arrive to your table."
         else 
-            puts "Error Detected!! Please try again"
+            puts "Invalid choice!!"
         end
 
         puts "----------------------"
         puts "Would you like to have ice too?"
         print "Enter yes or no: "
-        ice = gets
+        ice = gets 
 
         if ice == "yes" || "YES" || "Yes"
             puts "Sure we will add some ice cubes too."
@@ -55,7 +55,7 @@ elsif order == 2
         elsif pizza_size == "large"
             puts "A large size of Pizza will arrive to your table."
         else 
-            puts "Error Detected!! Please try again"
+            puts "Invalid choice!!"
         end
 
     when 4
@@ -64,5 +64,5 @@ elsif order == 2
 
 
 else 
-    puts "Error detected please try again :(" 
+    puts "Invalid choice!!" 
 end
