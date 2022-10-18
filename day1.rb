@@ -20,8 +20,8 @@ puts (1..10) === 10  #----true because 10 falls within this range
 puts (1...10) === 10 # === false because the integer 10 is excluded from the range 
 
 # 3. Print array of alphabates using Range operator
-alphas = ("a".."z").to_a
-print "array of alphabets: #{alphas}"
+alphas = ("a".."z").to_a        #now alphas is an array with characters 
+print "array of alphabets: #{alphas}"   #printing array
 puts 
 
 # 4. Print 'Ho! Ho! Ho! Merry Christmas!' using string interpolation and * operator.
